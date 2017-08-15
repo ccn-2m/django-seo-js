@@ -24,19 +24,19 @@ except (IOError, ImportError):
     long_description = ''
 
 setup(
-    name="django-seo-js",
+    name="ccn-django-seo-js",
     description="SEO support for angular, backbone, "
                 "ember, famo.us, and other SPA apps "
                 "built with django.",
     long_description=long_description,
     author="Steven Skoczen",
     author_email="steven@greenkahuna.com",
-    url="https://github.com/greenkahuna/django-seo-js",
+    url="https://github.com/ccn-2m/django-seo-js",
     version=VERSION,
-    download_url=[
-        'https://github.com/greenkahuna/django-seo-js/tarball/%s'
-        % VERSION,
-    ],
+    # download_url=[
+    #     'https://github.com/greenkahuna/django-seo-js/tarball/%s'
+    #     % VERSION,
+    # ],
     install_requires=reqs,
     tests_require=test_reqs,
     packages=find_packages(),
